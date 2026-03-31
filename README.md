@@ -63,7 +63,7 @@ input { width: 100%; padding: 12px; border: 1.5px solid var(--border); border-ra
     <p>مرحباً بكم</p>
   </div>
   <button class="btn-submit" style="margin-bottom:15px" onclick="showPage('page-student')">📱 أنا طالب - تسجيل</button>
-  <button class="btn-submit" style="background:#444" onclick="showPage('page-login')">🔐 فضاء الأستاذ</button>
+  <button class="btn-submit" style="background:#444" onclick="showPage('page-login')">🔐 فضاء الإدارة</button>
 </div>
 
 <div class="page" id="page-student">
@@ -81,8 +81,8 @@ input { width: 100%; padding: 12px; border: 1.5px solid var(--border); border-ra
     <div class="day-label" id="current-day-label">جاري التحميل...</div>
     <p style="font-size: 12px; margin-bottom: 10px;">انقر لتحديد الفترات التي حضرتها اليوم:</p>
     <div class="slots">
-      <button class="slot-btn" id="btn-m" onclick="toggleSlot('m')">☀️ قبل 20:00</button>
-      <button class="slot-btn" id="btn-e" onclick="toggleSlot('e')">🌙 بعد 20:00</button>
+      <button class="slot-btn" id="btn-m" onclick="toggleSlot('m')">☀️ بعد العصر</button>
+      <button class="slot-btn" id="btn-e" onclick="toggleSlot('e')">🌙 بعد المغرب</button>
     </div>
     <p class="locked-msg" id="lock-notice">⚠️ لا يمكن تسجيل الحضور إلا لليوم الحالي.</p>
   </div>
